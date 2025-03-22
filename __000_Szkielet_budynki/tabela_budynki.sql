@@ -88,17 +88,15 @@ from tabela_dzilaki_tmp01;
  weszlo i gdzie moga byc bledy  	
 --********************************************************************************************************************
 
-"BB1B/00027902/5" - nie udalo sie poporawnie odczytac 
+"_xxxxx_" - nie udalo sie poporawnie odczytac 
 
 
 update tabela_dzilaki_out set przeznaczeniebudynku = NULL where przeznaczeniebudynku like 'test' 
 
 select distinct nr_kw from tabela_dzilaki_out;
 
-
-
 -- budynki bedziałek
 select distinct nr_kw from tabela_dzilaki_out where nr_dzialki is null;
-'BB1B/00021134/8','BB1B/00007546/5','BB1B/00063545/8','BB1B/00029079/0','BB1B/00061731/5','BB1B/00027819/6','BB1B/00030795/5','BB1B/00037238/2','BB1B/00035926/8','BB1B/00028940/0','BB1B/00054760/5','BB1B/00035829/8','BB1B/00031930/1','BB1B/00060722/2','BB1B/00072622/8','BB1B/00030657/6','BB1B/00027509/0','BB1B/00067664/6','BB1B/00021208/8','BB1B/00030762/5','BB1B/00020707/9','BB1B/00004987/7','BB1B/00038567/4','BB1B/00044658/4','BB1B/00044053/3','BB1B/00036551/5','BB1B/00083872/5','BB1B/00029264/4','BB1B/00025697/0','BB1B/00008477/7','BB1B/00061068/6','BB1B/00067063/3','BB1B/00007559/9','BB1B/00029262/0','BB1B/00035913/4' - KW w ktorych sa budynki nie przypisane do dzialek 
+'_xxxxxx_'  - KW w ktorych sa budynki nie przypisane do dzialek 
 
 
