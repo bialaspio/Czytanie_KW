@@ -737,7 +737,7 @@ main_dir_list = ['C:\\PB\\M_Bielsko\\KW\\dzialki\\--09_Kamienica--\\kw\\']
 teraz = time.asctime( time.localtime(time.time()))
 naz_log.write('START -' +teraz + '\n')
 try:
-	conn_PG = psycopg2.connect("dbname='--KW_09_KAMIENICA_20190916--' user='postgres' host='crait' password='aaaaaa'")
+	conn_PG = psycopg2.connect("dbname='--KW_09_KAMIENICA_20190916--' user='postgres' host='_host_name_' password='_passwd_'")
 	naz_log.write(teraz + ' [INF] Polaczono z baza danych\n')
 except:
 	print "I am unable to connect to the database"
